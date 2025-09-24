@@ -749,6 +749,9 @@ main .section.bg-light {
   color: var(--text-color);
 }
 
+.adobe-ue-edit header, .adobe-ue-preview header {
+  background: #000;
+}
 
 
 
