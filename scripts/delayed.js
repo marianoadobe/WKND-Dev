@@ -102,7 +102,7 @@ function buildTwitterLinks() {
 if (!window.location.hostname.includes('localhost')) {
   
   embedCustomLibraries();
-  if (!(window.location.href.indexOf('/canvas/') > -1)) {
+  if (!(window.location.pathname.indexOf('/canvas/') > -1)) {
     loadAT();
   }
 }
